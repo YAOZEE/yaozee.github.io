@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar__logo {
+  pointer-events: none;
+  width: 12%;
+  height: 12%;
+  margin-top: -5px;
+  margin-right: 5px;
+  border-radius: 0%;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  margin: 0 10px;
+  margin-right: 10px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.navbar a:hover{
+  color: rgb(19, 134, 76);
+}
+
+.navbar-nav {
+  text-align: end;
+}
+
+wrapper,
+.jumbotron__slider {
+  width: 100%;
+  height: 100%;
+}
+
+.images__slider {
+  height: 100%;
+  width: 100%;
+  filter: brightness(0.8);
+}
+
+.images__text1 {
+  font-size: 4rem;
+  font-weight: 600;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  color: white;
+  text-shadow: 40px;
+}
+.about__title {
+  padding-top: 1%;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 20px;
+}
+
+.about__subtext {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+#about {
+  padding-top: 6rem;
+}
+
+.about__images {
+  position: absolute;
+  border-radius: 20%;
+  top: 204%;
+  left: 9%;
+  height: 50%;
+  width: 35%;
+}
+
+.about__text {
+  position: absolute;
+  border-radius: 30%;
+  top: 208%;
+  left: 35%;
+  height: 55%;
+  width: 35%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.about__images2 {
+  position: absolute;
+  border-radius: 20%;
+  top: 225%;
+  left: 53%;
+  height: 50%;
+  width: 35%;
+}
+
+.about__text2 {
+  position: absolute;
+  border-radius: 30%;
+  top: 246%;
+  left: 25%;
+  height: 55%;
+  width: 35%;
+  font-size: 20px;
+  font-style: italic;
+}
+.logo {
+  height: 100%;
+  width: 90%;
+}
+
+.logo2 {
+  width: 35%;
+}
+
+.models__title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 20px;
+  top: 310%;
+}
+
+.models__subtext {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding-bottom: 3%;
+}
+
+#product {
+  padding-top: 40rem;
+  padding-bottom: 15rem;
+}
+
+.models__images {
+  border-radius: 20px;
+  width: 90%;
+}
+
+.discover__title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 20px;
+  top: 310%;
+  padding-bottom: 1%;
+}
+
+.discover__subtext {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 500;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 100%;
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+.btn:hover{
+  background-color: antiquewhite;
+  color: black;
+}
+
+
+.card {
+  border: 0;
+  left: 0%;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.contacts__title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 20px;
+  color: black;
+
+}
+
+#contacts {
+  padding-top: 8rem;
+}
+
+.contacts__subtext {
+  font-size: rem;
+  text-align: center;
+  font-weight: 600;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.contacts__images {
+  border-radius: 0px;
+  width: 20%;
+  padding-top: 10%;
+}
+
+
+footer {
+  background-color: black;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+
+.margin {
+  margin-top: 6rem;
+}
